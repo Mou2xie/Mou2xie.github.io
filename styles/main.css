@@ -976,19 +976,35 @@ td {
 }
 
       .post-container .post .post-title {
-        text-align: left;
+        text-align: center;
       }
       .post-container .post .post-info {
-        text-align: left;
+        text-align: center;
       }
       .post-detail .post .post-title {
-        text-align: left;
+        text-align: center;
       }
       .post-detail .post .post-info {
-        text-align: left;
+        text-align: center;
       }
     
       body {
-        font-family: -apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Hiragino Sans GB','Droid Sans Fallback','Microsoft YaHei',sans-serif;
+        font-family: Georgia, serif;
+      }
+    
+      .main {
+        background: #464D50;
+      }
+    
+      body {
+        background: #464D50;
+      }
+    
+      body {
+        color: #f1f3f5;
+      }
+    
+      a {
+        color: #0c8599;
       }
     
