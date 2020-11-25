@@ -989,22 +989,26 @@ td {
       }
     
       body {
-        font-family: Georgia, serif;
+        font-family: -apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Hiragino Sans GB','Droid Sans Fallback','Microsoft YaHei',sans-serif;
       }
     
       .main {
-        background: #464D50;
+        background: #f8f9fa;
       }
     
       body {
-        background: #464D50;
+        background: #f8f9fa;
       }
     
       body {
-        color: #f1f3f5;
+        color: #343a40;
       }
     
       a {
-        color: #0c8599;
+        color: #343a40;
+      }
+    
+      a:hover {
+        color: #0b7285;
       }
     
