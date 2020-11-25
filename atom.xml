@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://mou2xie.site</id>
+    <id>http://mou2xie.github.io</id>
     <title>某某谢的博客</title>
-    <updated>2020-11-25T01:44:07.547Z</updated>
+    <updated>2020-11-25T01:44:45.483Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://mou2xie.site"/>
-    <link rel="self" href="http://mou2xie.site/atom.xml"/>
+    <link rel="alternate" href="http://mou2xie.github.io"/>
+    <link rel="self" href="http://mou2xie.github.io/atom.xml"/>
     <subtitle>当无人为你指路时，你要无所畏惧继续前进。</subtitle>
-    <logo>http://mou2xie.site/images/avatar.png</logo>
-    <icon>http://mou2xie.site/favicon.ico</icon>
+    <logo>http://mou2xie.github.io/images/avatar.png</logo>
+    <icon>http://mou2xie.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 某某谢的博客</rights>
 </feed>
