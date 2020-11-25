@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://mou2xie.site</id>
+    <id>https://mou2xie.github.io</id>
     <title>某某谢的博客</title>
-    <updated>2020-11-25T02:22:47.628Z</updated>
+    <updated>2020-11-25T02:26:54.667Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://mou2xie.site"/>
-    <link rel="self" href="http://mou2xie.site/atom.xml"/>
+    <link rel="alternate" href="https://mou2xie.github.io"/>
+    <link rel="self" href="https://mou2xie.github.io/atom.xml"/>
     <subtitle>当无人为你指路时，你要无所畏惧继续前进。</subtitle>
-    <logo>http://mou2xie.site/images/avatar.png</logo>
-    <icon>http://mou2xie.site/favicon.ico</icon>
+    <logo>https://mou2xie.github.io/images/avatar.png</logo>
+    <icon>https://mou2xie.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 某某谢的博客</rights>
     <entry>
         <title type="html"><![CDATA[这半年独立开发尝试的总结]]></title>
-        <id>http://mou2xie.site/post/zhe-ban-nian-du-li-kai-fa-chang-shi-de-zong-jie/</id>
-        <link href="http://mou2xie.site/post/zhe-ban-nian-du-li-kai-fa-chang-shi-de-zong-jie/">
+        <id>https://mou2xie.github.io/post/zhe-ban-nian-du-li-kai-fa-chang-shi-de-zong-jie/</id>
+        <link href="https://mou2xie.github.io/post/zhe-ban-nian-du-li-kai-fa-chang-shi-de-zong-jie/">
         </link>
         <updated>2020-11-25T01:45:09.000Z</updated>
         <content type="html"><![CDATA[<p>周末参加了独立开发社区的线上聚会，从几位独立开发前辈身上学到了很多东西，大家聊得很开心。在此把自己会上的分享记录一下，也算是对今年项目的一个小总结。</p>
@@ -21,32 +21,32 @@
 <p>可能是受《社交网络》这些电影的荼毒，我身上有点极客情结，但是不懂技术怎么极客？其实从读大学开始，我就断断续续学习过编程，但始终浅尝辄止，做了几个flash的小玩意儿，没啥实践运用。工作之后，有机会接触到更多的技术，前端后端，各种语言。瞅来瞅去，我决定从web前端入手开始系统学习。一是上手快，二是前端写了就能看见，更容易获得成就感。（更容易出去装逼）</p>
 <p>说来惭愧，学了挺久，真正开始做东西，却是去年才开始的。</p>
 <p>第一个项目，是个纯静态的小程序。因为结婚要做个请柬，看了网上很多一键生成的工具，都是套模板，千篇一律没意思，于是就决定自己写一个。这个小程序没啥可说的，特别简单，但这既是一小步，又是一大步。特别推荐下Aseprite这个软件，是个专门画像素画的工具，这个小程序里的插画全用这个软件画出来的，简单好用。<br>
-<img src="http://mou2xie.site/post-images/1606270333529.png" alt="" loading="lazy"><br>
-<img src="http://mou2xie.site/post-images/1606270342628.png" alt="" loading="lazy"><br>
-<img src="http://mou2xie.site/post-images/1606270347968.png" alt="" loading="lazy"><br>
+<img src="https://mou2xie.github.io/post-images/1606270333529.png" alt="" loading="lazy"><br>
+<img src="https://mou2xie.github.io/post-images/1606270342628.png" alt="" loading="lazy"><br>
+<img src="https://mou2xie.github.io/post-images/1606270347968.png" alt="" loading="lazy"><br>
 可能是因为平时工作中没有“亲手”做出东西的机会，一旦开始就好像嚼了炫迈。很快我就开始了第二个小程序的开发，这次我的目标是搞出一个前后端闭环的小程序，能上线就成。<br>
-<img src="http://mou2xie.site/post-images/1606270369645.jpg" alt="" loading="lazy"><br>
+<img src="https://mou2xie.github.io/post-images/1606270369645.jpg" alt="" loading="lazy"><br>
 这是个词典类小程序，做流行语释意。灵感来自于我妈，她听她学生说，却不知道意思，来问我，我解答。于是我合计把这个流程搬到线上，在小程序上提问，我在后台看到，解答之后发布一个词卡，在小程序上能看到，完事儿。说句题外话，这个功能其实完全不需要做产品去实现，微信里直接对话省时省力。从需求层面这个小程序是站不住的，我做出来纯粹是个人技术实践。（也不能说完全站不住，有兴趣的朋友可以看看小鸡词典这个微信小程序，他们用社区的方式做，也有声有色的。）</p>
 <p>在这个小程序的开发过程中，我极大的拓展了自己的技术栈，为了实现服务端，我学习了nodeJS、express；使用mongoDB作为数据库；第一次拥有了自己的服务器，也第一次体会到备案的麻烦。拜万能的google所赐，遇到的问题最后都顺利攻克了。顺带一提，小程序请求必须使用https协议，逼得我不得不去申请https证书，并且部署Nginx来做请求跳转，这两个环节倒是意料之外的工作。</p>
 <p>最后这个小程序顺利上线了。目标完成，我当然心情大好，没运营几天就磨拳霍霍想迭代了。人心情好的时候难免判断力会减弱。这次迭代，我加了个答题挑战的功能。现在想起来其实有点无聊，当时可能真是杀疯了。</p>
 <p>我搞了一套题库，分为简单、中等、困难三个等级，进去答题之后，会根据得分给出一个挑战结果。其实也很简单，但是当时自己觉得不得了极了。<br>
-<img src="http://mou2xie.site/post-images/1606270383442.jpg" alt="" loading="lazy"><br>
-<img src="http://mou2xie.site/post-images/1606270389079.jpg" alt="" loading="lazy"><br>
-<img src="http://mou2xie.site/post-images/1606270394543.jpg" alt="" loading="lazy"><br>
+<img src="https://mou2xie.github.io/post-images/1606270383442.jpg" alt="" loading="lazy"><br>
+<img src="https://mou2xie.github.io/post-images/1606270389079.jpg" alt="" loading="lazy"><br>
+<img src="https://mou2xie.github.io/post-images/1606270394543.jpg" alt="" loading="lazy"><br>
 流行语词典运营了一段时间，用户累计到大概1000个左右，之后过了不久就关停了，也是因为技术实践的目的达到了，产品本身没太大意思。这个项目出乎意料的一点就在于提问，后台还有挺多人向我提问的，说明这个产品成功传播了出去。所以有些事，不去做真不知道。</p>
 <p>这之后过不多久就闹新冠了，过完年在家闲着没事，我又开始合计做个啥。这次的目标现实又俗气——能不能用产品赚点钱呢？</p>
 <p>对于我这种没啥商业资源、运营不强，技术能力也弱的，只能做点简单粗暴的业务，一筛选下来，最后我注意到了淘宝客。这里我先简单介绍下淘宝客的模式。淘宝客是带货拿佣金的玩法。在淘宝联盟注册之后，你可以分发商品的链接或者淘口令，这些商品会带上你的标识。当有用户通过你分发的链接或淘口令购买成功之后，经过一定的结算期，你就可以获得佣金，作为你帮忙推广商品的酬劳。淘宝客也有等级，如果你的业绩好，升到了高级之后，返佣也会相当可观。</p>
 <p>因为在微信里传播淘宝商品容易遇到限制，稳妥起见，这次我选择了做支付宝小程序。支付宝小程序和微信小程序写起来几乎一样，开发过程中没遇到什么问题。值得一说的是在这个小程序上我尝试了serverless，用了淘宝提供的小程序云开发功能（云函数、云数据库），免去了配置服务器、备案、环境调试的麻烦，很适合个人开发者和轻业务场景，推荐尝试。<br>
-<img src="http://mou2xie.site/post-images/1606270514317.png" alt="" loading="lazy"><br>
-<img src="http://mou2xie.site/post-images/1606270523534.png" alt="" loading="lazy"><br>
+<img src="https://mou2xie.github.io/post-images/1606270514317.png" alt="" loading="lazy"><br>
+<img src="https://mou2xie.github.io/post-images/1606270523534.png" alt="" loading="lazy"><br>
 小程序很快做好了，就一个商品列表页，一个商品详情页，能满足商品展示和复制淘口令的需求。一开始还规划接淘宝联盟的接口，实现商品自动上架，后面因为战线有点长，就砍掉了。取而代之，我用VUE简单写了个本地后台，能够实现通过excel上传和编辑商品，前期也够用。<br>
-<img src="http://mou2xie.site/post-images/1606270532381.png" alt="" loading="lazy"><br>
+<img src="https://mou2xie.github.io/post-images/1606270532381.png" alt="" loading="lazy"><br>
 这里还有个小插曲，既然没有接淘宝联盟的接口，我也没有必要用自己的淘宝客账号了。为了多赚钱，我直接用朋友的高佣账号搞商品在我这上架，这条路后面被证明是不通的，而且付出了沉重的代价。</p>
 <p>差不多在这个产品上线的同时，噩耗传来，我们复工了。工作的时光总是愉快而又短暂，不知不觉过去了一周。某个晚上，我正在玩游戏，突然收到短信，一笔收入进账。（朋友给我开了个子渠道，并且做了短信提醒）我很诧异，想了好久才想起来，于是登陆后台看了看数据，出乎我的意料。这个小程序在完全没有任何推广的情况下，日访问用户竟然有200左右，全是通过支付宝搜索进来的。收入虽然微薄，但毕竟是睡后收入，自己的动力也变得充足了。从这天开始一直到下架，我一直记录着产品的数据，也每天维护产品的上新。</p>
 <p>美好的日子注定短暂。不久之后的一天，朋友突然让我把所有商品全下了。淘宝冻结了他的账号，后面详细看规则才了解到，我这种（公然）挂羊头卖狗肉的行为是不允许的，被逮到了，只能认栽。惨重的是我损失了迄今为止所有收入（还没提现），朋友也被连带没收了一个月的收入。我很难过，主要是因为连累了朋友，太过意不去了。</p>
 <p>接下来，老老实实用自己的账号做，我的是初级账号，收入少了很多，但好在心安理得。这期间和朋友吃饭，给他们看小程序，发现在某些iphone手机上，淘口令竟然无法复制！这可是个重大bug，回家我立即修复了这个问题，然后提审。没想到竟然给我打回来了，说“小程序命名过于宽泛”。我很纳闷，为啥第一次提审的时候你不说呢？我去修改名字，说有产品在审核中不让改。一气之下我把线上版本下架，重新提审，结果又说产品必须在线上才能修改名字，但是我一提审又因为名字问题给我打回来。这下我就很尴尬了。和客服纠缠了一段时间未果，正好这时公司有一个紧急项目，我必须全力以赴去做，于是我的支付宝小程序，就这样莫名其妙“被下架”了。</p>
 <p>这一段经历也挺有趣，一来是支付宝小程序的流量意外的还不错，最高的一天竟然有2400+UV。我至今也不知道都是谁在搜索、谁在使用，可能是疫情期间，很多人使用健康宝，培养起来了搜索小程序的习惯，才带来这么多流量。二是我想我找到了收入少的原因。在运营期间，我小程序列表页到详情页的转化只有可怜的10%左右，大部分用户没有进入详情页。我又回头看了列表页的停留时间，在20秒上下。由于我常年推荐的商品在30个左右，我自己试了试，浏览完这30商品差不多就是20秒，也就是说，用户是有浏览意愿的，但看完了列表也没找到心仪的商品，于是就走了，看来以后需要在选品、推荐环节加强一些，当然商品数量也需要更多点。最后，IOS的bug造成的损失有多少，我没有仔细追查，但肯定也有影响。<br>
-<img src="http://mou2xie.site/post-images/1606270543268.png" alt="" loading="lazy"><br>
+<img src="https://mou2xie.github.io/post-images/1606270543268.png" alt="" loading="lazy"><br>
 现在，公司的项目基本告一段落，我也已经开始新小程序开发，这次邀请了一个后端的小伙伴加盟，短板得到了一定的补足，祝我顺利吧。</p>
 ]]></content>
     </entry>
