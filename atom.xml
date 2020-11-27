@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mou2xie.github.io</id>
     <title>某某谢的博客</title>
-    <updated>2020-11-26T00:40:45.187Z</updated>
+    <updated>2020-11-27T09:01:54.794Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mou2xie.github.io"/>
     <link rel="self" href="https://mou2xie.github.io/atom.xml"/>
@@ -10,6 +10,44 @@
     <logo>https://mou2xie.github.io/images/avatar.png</logo>
     <icon>https://mou2xie.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 某某谢的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[Flex布局父子元素高度问题]]></title>
+        <id>https://mou2xie.github.io/post/flex-bu-ju-fu-zi-yuan-su-gao-du-wen-ti/</id>
+        <link href="https://mou2xie.github.io/post/flex-bu-ju-fu-zi-yuan-su-gao-du-wen-ti/">
+        </link>
+        <updated>2020-11-27T07:11:26.000Z</updated>
+        <content type="html"><![CDATA[<p>昨晚上撸代码，写着写着突然发现有一个flex容器中的子元素的高度自动撑满了父级容器。我没有对它的高度做任何定义，它咋就自己膨胀了呢？我百思不得其解。</p>
+<p>一开始我怀疑是不是继承了外面容器的align-items: stretch属性，但是翻完文档也没有找到关于flex布局继承性的描述。后面在CSDN上找到一篇文章讲到这个问题。</p>
+<blockquote>
+<p>父元素为flex布局时：<br>
+没有设置高度的子元素与父元素高度一致。<br>
+1）如果父元素设置固定高度，则子元素中没有设置高度的元素将继承父元素的高度；但是如果父元素的align-items设置以后那么子元素的高度则会由自身内容决定<br>
+2）如果父元素没有设置高度，其高度由最高的子元素决定。</p>
+</blockquote>
+<p>原来还有这么个规则，以前不知道，写了这么几次也没发觉。</p>
+<p>在我的代码中，coupon_card这个容器类没有设置align-items，子元素coupon_price也没有设置高度，就会自动撑满coupon_card的高度。</p>
+<pre><code>.coupon_card {
+  /* border: 1px solid black; */
+  height: 130rpx;
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  border-radius: 10rpx;
+  background: #FFEBEB;
+  display: flex;
+}
+
+.coupon_price {
+  /* border: 1px solid black; */
+  margin-left: 40rpx;
+  display: flex;
+  align-items: center;
+  color: #F64D46;
+}
+</code></pre>
+<p>记录下。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[业余独立开发项目总结]]></title>
         <id>https://mou2xie.github.io/post/zhe-ban-nian-du-li-kai-fa-chang-shi-de-zong-jie/</id>
