@@ -2,17 +2,20 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Flex布局父子元素高度问题 | 某某谢的博客</title>
+<title>联系方式 | 某某谢的博客</title>
 <link rel="shortcut icon" href="https://mou2xie.github.io/favicon.ico?v=1606701769949">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://mou2xie.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Flex布局父子元素高度问题 | 某某谢的博客 - Atom Feed" href="https://mou2xie.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="联系方式 | 某某谢的博客 - Atom Feed" href="https://mou2xie.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="昨晚上撸代码，写着写着突然发现有一个flex容器中的子元素的高度自动撑满了父级容器。我没有对它的高度做任何定义，它咋就自己膨胀了呢？我百思不得其解。
-一开始我怀疑是不是继承了外面容器的align-items: stretch属性，但是翻完文..." />
+    <meta name="description" content="邮箱
+xieyongjie2012@163.com
+微信号
+mou2xie
+" />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -67,68 +70,41 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              Flex布局父子元素高度问题
+              联系方式
             </h2>
             <div class="post-info">
               <span>
-                2020-11-27
+                2020-11-30
               </span>
               <span>
-                2 min read
+                1 min read
               </span>
               
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>昨晚上撸代码，写着写着突然发现有一个flex容器中的子元素的高度自动撑满了父级容器。我没有对它的高度做任何定义，它咋就自己膨胀了呢？我百思不得其解。</p>
-<p>一开始我怀疑是不是继承了外面容器的align-items: stretch属性，但是翻完文档也没有找到关于flex布局继承性的描述。后面在CSDN上找到一篇文章讲到这个问题。</p>
-<blockquote>
-<p>父元素为flex布局时：<br>
-没有设置高度的子元素与父元素高度一致。<br>
-1）如果父元素设置固定高度，则子元素中没有设置高度的元素将继承父元素的高度；但是如果父元素的align-items设置以后那么子元素的高度则会由自身内容决定<br>
-2）如果父元素没有设置高度，其高度由最高的子元素决定。</p>
-</blockquote>
-<p>原来还有这么个规则，以前不知道，写了这么几次也没发觉。</p>
-<p>在我的代码中，coupon_card这个容器类没有设置align-items，子元素coupon_price也没有设置高度，就会自动撑满coupon_card的高度。</p>
-<pre><code>.coupon_card {
-  /* border: 1px solid black; */
-  height: 130rpx;
-  margin-top: 10rpx;
-  margin-left: 10rpx;
-  margin-right: 10rpx;
-  border-radius: 10rpx;
-  background: #FFEBEB;
-  display: flex;
-}
-
-.coupon_price {
-  /* border: 1px solid black; */
-  margin-left: 40rpx;
-  display: flex;
-  align-items: center;
-  color: #F64D46;
-}
-</code></pre>
-<p>记录下。</p>
+                <h2 id="邮箱">邮箱</h2>
+<p>xieyongjie2012@163.com</p>
+<h2 id="微信号">微信号</h2>
+<p>mou2xie</p>
 
               </div>
               <div class="toc-container">
-                
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E9%82%AE%E7%AE%B1">邮箱</a></li>
+<li><a href="#%E5%BE%AE%E4%BF%A1%E5%8F%B7">微信号</a></li>
+</ul>
+</li>
+</ul>
+
               </div>
             </div>
           </article>
         </div>
 
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://mou2xie.github.io/post/zhe-ban-nian-du-li-kai-fa-chang-shi-de-zong-jie/">
-              <h3 class="post-title">
-                业余独立开发项目总结
-              </h3>
-            </a>
-          </div>
         
 
         
