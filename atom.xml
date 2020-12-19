@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mou2xie.github.io</id>
     <title>某某谢的博客</title>
-    <updated>2020-12-11T06:27:49.173Z</updated>
+    <updated>2020-12-19T16:46:13.514Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mou2xie.github.io"/>
     <link rel="self" href="https://mou2xie.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://mou2xie.github.io/images/avatar.png</logo>
     <icon>https://mou2xie.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 某某谢的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[Javascript中this指向问题]]></title>
+        <id>https://mou2xie.github.io/post/javascript-zhong-this-zhi-xiang-wen-ti/</id>
+        <link href="https://mou2xie.github.io/post/javascript-zhong-this-zhi-xiang-wen-ti/">
+        </link>
+        <updated>2020-12-19T13:34:33.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[常用git命令备忘]]></title>
         <id>https://mou2xie.github.io/post/chang-yong-git-ming-ling-bei-wang/</id>
